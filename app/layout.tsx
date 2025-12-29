@@ -18,8 +18,11 @@ const dancingScript = Dancing_Script({
 });
 
 export const metadata: Metadata = {
-  title: "The Creative One | Artist & Developer",
-  description: "I create with both brushes and code. Teaching art and inspiring creativity.",
+  title: "Eugene Oredi | Portfolio",
+  description: "I create with...",
+  icons: {
+    icon: '/favicon.ico', // or '/public/favicon.ico'
+  },
 };
 
 export default function RootLayout({
